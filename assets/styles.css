@@ -1,0 +1,91 @@
+body {
+  background-color: rgba(222, 210, 194, 0.645);
+}
+
+.header {
+  text-align: center;
+  color: rgb(89, 86, 82);
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.container-cards {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 100rem;
+  min-height: auto;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cards {
+  border-radius: 0.5rem;
+  flex-basis: 250px;
+  max-width: 400px;
+  height: auto;
+  flex-grow: 1;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-cards {
+  height: 300px;
+  width: auto;
+  border-radius: 0.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-one {
+  background-image: url("https://media.istockphoto.com/id/1447004416/es/foto/ni%C3%B1a-escribiendo-a-mano-en-un-cuaderno-gerente-ocupado-de-un-espacio-de-trabajo-de-la-empresa.jpg?s=612x612&w=0&k=20&c=i0vP3_S8u7mYJ4lWi3KiG3uHFflGrgyLodfGSrWZVkg=");
+}
+
+.card-two {
+  background-image: url("https://media.istockphoto.com/id/1717118488/es/foto/toma-de-vista-superior-de-un-estetoscopio-portapapeles-m%C3%A9dico-anteojos-term%C3%B3metro-muchas.jpg?s=612x612&w=0&k=20&c=Gxu_4xkSffUsmyFElFw3SnOs-Yh4uAtDd3FDTwzvALI=");
+}
+
+.card-three {
+  background-image: url("https://media.istockphoto.com/id/936887238/es/foto/d%C3%ADa-mundial-de-la-salud-concepto-de-salud-y-m%C3%A9dico.jpg?s=612x612&w=0&k=20&c=JfU9XfcvHGGMyClp9aVxfBoZo3ka4iIAZXOFLHvT4gU=");
+}
+
+.card-four {
+  background-image: url("https://media.istockphoto.com/id/975399968/es/foto/papel-de-cuaderno-con-el-auricular-y-teclado-sobre-la-mesa-azul-se-puede-utilizada-para-el.jpg?s=612x612&w=0&k=20&c=JsQR3FUohTkvnzO_TR3wc6t0srD-C9J4ULiga02xwP0=");
+}
+
+.card-five {
+  background-image: url("https://media.istockphoto.com/id/1250636831/es/foto/cita-con-el-m%C3%A9dico-estetoscopio-rojo-m%C3%A1scaras-higi%C3%A9nicas-m%C3%A9dicas-tabletas-documentos-m%C3%A9dicos.jpg?s=612x612&w=0&k=20&c=6tbrvLtKLNRI4_fVSEF7IniPKiH_AeZpimESz8FtgNw=");
+}
+
+.card-six {
+  background-image: url("https://media.istockphoto.com/id/1248569334/es/foto/concepto-de-escuela-en-l%C3%ADnea-de-educaci%C3%B3n-papeler%C3%ADa-teclado-en-la-mesa-azul-vista-marco.jpg?s=612x612&w=0&k=20&c=sZKltCQJMEjWJCojS8yilReAZpPIVHhCrAgapiv6pc0=");
+}
+
+.card-seven {
+  background-image: url("https://media.istockphoto.com/id/1335094094/es/foto/mesa-de-escritorio-de-oficina-con-teclado-de-computadora-vista-superior.jpg?s=612x612&w=0&k=20&c=HrEC2e3Sfohvi1vlcVK0bSkpONd914Pijr78boeGwlE=");
+}
+
+.card-eight {
+  background-image: url("https://media.istockphoto.com/id/868648018/es/foto/acci%C3%B3n-texto-concepto-escribe-en-el-cuaderno.jpg?s=612x612&w=0&k=20&c=Tf5oIFu07EvxoSyrtLriJgUmSNtpBYHL7CJ55jmn3Oo=");
+}
+
+.card-nine {
+  background-image: url("https://media.istockphoto.com/id/1216216421/es/foto/tubo-de-an%C3%A1lisis-de-sangre-para-el-nuevo-coronavirus-de-r%C3%A1pida-propagaci%C3%B3n-originario-de-wuhan.jpg?s=612x612&w=0&k=20&c=O9mFvQRT3gXP43jX8fT3ZJB_z4PHdPrqN5So3623AWE=");
+}
+
+.card-ten {
+  background-image: url("https://media.istockphoto.com/id/1317267501/es/foto/concepto-de-telemedicina-doctor-en-l%C3%ADnea-bloc-de-notas-en-blanco-para-registros-m%C3%A9dicos-y.jpg?s=612x612&w=0&k=20&c=MdDC79Qo4oT-rbMsSavtcObiFNgPEtqV9uKSb9pdBD0=");
+}
+
+.card-eleven {
+  background-image: url("https://media.istockphoto.com/id/1329631986/es/foto/estetoscopio-portapapeles-y-pastillas-sobre-fondo-azul-espacio-de-trabajo-del-doctor.jpg?s=612x612&w=0&k=20&c=BuNoBIEyLbyCK-Qlf-YxhoEmNpw3VviBNOzj9VjBzvI=");
+}
+
+.card-twelve {
+  background-image: url("https://media.istockphoto.com/id/1287464138/es/foto/art%C3%ADculos-m%C3%A9dicos-atenci%C3%B3n-m%C3%A9dica-fondo-de-espacio-de-copia.jpg?s=612x612&w=0&k=20&c=CwAeN_ro_Mp6zH8SAwVQV_O9oAuE6xLoE7Vh7_1FLDo=");
+}
